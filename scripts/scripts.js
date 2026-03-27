@@ -56,12 +56,11 @@ function changeModel(){
   if (modelName == "XYZ") {
     modelName = "CPRG"
     modelText.innerHTML = "Model CPRG";
-    recalculate();
   } else if (modelName == "CPRG") {
     modelName = "XYZ"
     modelText.innerHTML = "Model XYZ";
-    recalculate();
   } 
+  recalculate();
 }
 modelButton.addEventListener("click", changeModel);
 
