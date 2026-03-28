@@ -52,12 +52,12 @@ function recalculate(){
 // INSERT YOUR CODE HERE
 const modelButton = document.getElementById("model-button");
 function changeModel(){
-  const modelText = document.getElementById("model-text")
+  const modelText = document.getElementById("model-text");
   if (modelName == "XYZ") {
-    modelName = "CPRG"
+    modelName = "CPRG";
     modelText.innerHTML = "Model CPRG";
   } else if (modelName == "CPRG") {
-    modelName = "XYZ"
+    modelName = "XYZ";
     modelText.innerHTML = "Model XYZ";
   } 
   recalculate();
